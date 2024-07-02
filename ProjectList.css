@@ -1,0 +1,366 @@
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    font-size: 1rem;
+    width: 200px;
+  }
+  
+  .sort-select {
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .sort-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-weight: 100;
+    font-size: larger;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a, .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination a.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .pagination button:hover:not(:disabled) {
+    background-color: #ddd;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  .button {
+    border: 1px solid rgb(109, 109, 209);
+    color: blue;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 8px 14px;
+    cursor: pointer;
+    margin-right: 10px; 
+  }
+  
+  .button:last-child {
+    margin-right: 0; 
+  }
+  
+  .button:hover {
+    color: white;
+    border-color: blue;
+    background-color: blue;
+  }
+
+    .table-container {
+        margin-top: 20px;
+      }
+      
+      .table-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .search-bar {
+        padding: 5px;
+        font-size: 1rem;
+        width: 200px;
+      }
+      
+      .sort-select {
+        padding: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      
+      .sort-button {
+        padding: 5px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      
+      .project-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      thead {
+        background-color: #f1f1f1;
+      }
+      
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+      
+      button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      
+      h1 {
+        font-weight: 100;
+        font-size: larger;
+      }
+      
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .pagination a, .pagination button {
+        margin: 0 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: #007bff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .pagination a.active {
+        background-color: #007bff;
+        color: white;
+      }
+      
+      .pagination button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+      
+      .pagination button:hover:not(:disabled) {
+        background-color: #ddd;
+      }
+      
+      .pagination a:hover {
+        background-color: #ddd;
+      }
+      
+      .button {
+        border: 1px solid rgb(109, 109, 209);
+        color: blue;
+        background-color: transparent;
+        border-radius: 20px;
+        padding: 8px 14px;
+        cursor: pointer;
+        margin-right: 10px; 
+      }
+      
+      .button:last-child {
+        margin-right: 0;
+      }
+      
+      .button:hover {
+        color: white;
+        border-color: blue;
+        background-color: blue;
+      }
+  
+      .project-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+      }
+      
+      .project-card {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        
+      }
+      
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      
+      .project-header h3 {
+        font-size: 18px;
+        margin: 0;
+      }
+      
+      .project-status {
+        font-size: 14px;
+        color: #4caf50; /* Adjust color based on status */
+      }
+      
+      .project-dates {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 16px;
+      }
+      
+      .project-details p {
+        margin: 4px 0;
+        font-size: 14px;
+      }
+      
+      .project-details strong {
+        font-weight: 600;
+      }
+      
+      .project-actions {
+        display: flex;
+        gap: 8px;
+        justify-content: space-around;
+      }
+      
+      .project-actions .button {
+        flex: 1;
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .project-actions .button.start {
+        background-color: #007bff;
+        color: white;
+      }
+      
+      .project-actions .button.close {
+        background-color: #f0ad4e;
+        color: white;
+      }
+      
+      .project-actions .button.cancel {
+        background-color: #d9534f;
+        color: white;
+      }
+
+  @media (max-width: 480px) {
+    .project-table{
+      display: none;
+    }
+    .pagination{
+      display: none;
+    }
+    .mobile-pagination{
+       display: block;
+    }
+  .table-header-mobile {
+     display: block;
+  }
+  .table-header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0; 
+  }
+  
+  .search-bar-mobile {
+    flex: 1; 
+    padding: 8px;
+    margin-right: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sort-select-mobile {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .project-cards {
+    display: block;
+  }  
+}
+
+
+
+
+
